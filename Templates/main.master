@@ -8,6 +8,10 @@
     <meta content="Welcome to a world of new home possibilities in Edmonton. West Heritage Valley is located in southwest Edmonton and offers a unique lifestyle." name="description" />
     <meta content="West heritage valley,Qualico Edmonton,Chappelle gardens,Creekwood,crimson,creekwood Chappelle,Paisley,Heritage valley,Edmonton new homes,southwest Edmonton homes,south Edmonton homes" name="keywords" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="../Content/grid.css" rel="stylesheet" />
+    <link href="../Content/navbar.css" rel="stylesheet" />
     <link href="../Content/main.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

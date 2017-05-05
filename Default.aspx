@@ -3,40 +3,45 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
         <div class="row">
             <img src="Images/Home/Communities-Of-Heritage-Valley.jpg" class="img-responsive" />
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <h1>Explore The Communities of West Heritage Valley</h1>
+                <h1 class="text-center">Explore The Communities of West Heritage Valley</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-15 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-3">
-                <div class="thumbnail">
-                    <img src="Images/Home/Chappelle-Gardens.jpg" class="img-responsive" />
-                </div>
+            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+                <img src="Images/Home/Chappelle-Gardens.jpg" class="img-responsive" />
+                <p>
+                    <a href="#">Learn More</a>
+                </p>
             </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-3">
-                <div class="thumbnail">
-                    <img src="Images/Home/Collections.jpg" class="img-responsive" />
-                </div>
+            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+                <img src="Images/Home/Collections.jpg" class="img-responsive" />
+                <p>
+                    <a href="#">Learn More</a>
+                </p>
             </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-3">
-                <div class="thumbnail">
-                    <img src="Images/Home/Creekwood.jpg" class="img-responsive" />
-                </div>
+            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+                <img src="Images/Home/Creekwood.jpg" class="img-responsive" />
+                <p>
+                    <a href="#">Learn More</a>
+                </p>
             </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-3">
-                <div class="thumbnail">
-                    <img src="Images/Home/Crimson.jpg" class="img-responsive" />
-                </div>
+            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-12 thumbnail">
+                <img src="Images/Home/Crimson.jpg" class="img-responsive" />
+                <p>
+                    <a href="#">Learn More</a>
+                </p>
             </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-12 col-xs-3 text-center">
-                <div class="thumbnail">
-                    <img src="Images/Home/Paisley.jpg" class="img-responsive" />
-                </div>
+            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+                <img src="Images/Home/Paisley.jpg" class="img-responsive" />
+                <p>
+                    <a href="#">Learn More</a>
+                </p>
             </div>
         </div>
     </div>
