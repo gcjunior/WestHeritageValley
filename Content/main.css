@@ -2,10 +2,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#home h1
-{
-    margin: 50px auto 60px auto;
+.color-standard {
     color: #005870;
+}
+
+.learn-more-icon {
+    display: inline-block;
+    font: normal normal normal 20px/1 FontAwesome;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+    .learn-more-icon:before {
+        margin-right: 6px;
+        content: "\f061";
+        font-size: 13px;
+    }
+
+#home h1 {
+    margin: 50px auto 60px auto;
     font-size: 32px;
 }
 
@@ -42,14 +57,93 @@
     }
 
         #home .thumbnail p a {
-            display: inline-block;
-            font: normal normal normal 20px/1 FontAwesome;
             font-size: 14px;
             font-weight: 700;
         }
 
-            #home .thumbnail p a:before {
-                margin-right: 6px;
-                content: "\f061";
-                font-size: 13px;
-            }
+#home .overlay {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    right: 0;
+}
+
+    #home .overlay h1 {
+        color: #fff;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+#map h1, #communities h1 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 40px auto 20px auto;
+}
+
+#communities .list-communities .row {
+    margin-top: 30px;
+}
+
+#communities .list-communities .img-responsive{
+    margin: 0 auto;
+}
+
+
+#communities .list-communities .content .title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #24262b;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#communities .list-communities .content .details {
+    font-size: 14px;
+    font-weight: 300;
+    color: #24262b;
+}
+
+
+@media(min-width: 768px) {
+
+    #home .overlay {
+        top: 10%;
+        left: 6%;
+    }
+
+        #home .overlay h1 {
+            font-size: 35px;
+            line-height: 35px;
+            text-align: left;
+        }
+}
+
+@media(min-width: 992px) {
+    #home .overlay {
+        top: 10%;
+        left: 6%;
+    }
+
+        #home .overlay h1 {
+            font-size: 45px;
+            line-height: 45px;
+        }
+
+    #communities .list-communities .content-right {
+        padding-left: 20px;
+    }
+}
+
+@media(min-width: 1200px) {
+    #home .overlay {
+        top: 15%;
+        left: 6%;
+    }
+
+        #home .overlay h1 {
+            font-size: 65px;
+            line-height: 65px;
+        }
+}
