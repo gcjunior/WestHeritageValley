@@ -1,0 +1,4 @@
+# robotstxt.org/
+Sitemap: http://sterlingedmonton.com/sitemap.xml
+User-agent: *
+Disallow: /build-price/
