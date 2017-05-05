@@ -21,31 +21,31 @@
             <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
                 <img src="Images/Home/Chappelle-Gardens.jpg" class="img-responsive" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Chappelle") %>" class="learn-more-icon color-standard">Learn More</a>
+                    <a href="<%= ResolveUrl("~/communities/#Chappelle") %>" class="learn-more-icon color-chappele">Learn More</a>
                 </p>
             </div>
             <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
                 <img src="Images/Home/Collections.jpg" class="img-responsive" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Collections") %>" class="learn-more-icon color-standard">Learn More</a>
+                    <a href="<%= ResolveUrl("~/communities/#Collections") %>" class="learn-more-icon color-collections">Learn More</a>
                 </p>
             </div>
             <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
                 <img src="Images/Home/Creekwood.jpg" class="img-responsive" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Creekwood") %>" class="learn-more-icon color-standard">Learn More</a>
+                    <a href="<%= ResolveUrl("~/communities/#Creekwood") %>" class="learn-more-icon color-creekwood">Learn More</a>
                 </p>
             </div>
             <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-12 thumbnail">
                 <img src="Images/Home/Crimson.jpg" class="img-responsive" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Crimson") %>" class="learn-more-icon color-standard">Learn More</a>
+                    <a href="<%= ResolveUrl("~/communities/#Crimson") %>" class="learn-more-icon color-crimson">Learn More</a>
                 </p>
             </div>
             <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
                 <img src="Images/Home/Paisley.jpg" class="img-responsive" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Paisley") %>" class="learn-more-icon color-standard">Learn More</a>
+                    <a href="<%= ResolveUrl("~/communities/#Paisley") %>" class="learn-more-icon color-paisley">Learn More</a>
                 </p>
             </div>
         </div>

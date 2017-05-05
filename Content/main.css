@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
 
 .color-standard {
@@ -8,16 +8,36 @@
 
 .learn-more-icon {
     display: inline-block;
-    font: normal normal normal 20px/1 FontAwesome;
     font-size: 14px;
     font-weight: 700;
 }
 
     .learn-more-icon:before {
+        font: normal normal normal 20px/1 FontAwesome;
         margin-right: 6px;
         content: "\f061";
         font-size: 13px;
     }
+
+.color-chappele {
+    color: #005870;
+}
+
+.color-collections {
+    color: #84b140;
+}
+
+.color-creekwood {
+    color: #ee7624;
+}
+
+.color-crimson {
+    color: #692045;
+}
+
+.color-paisley {
+    color: #0099a9;
+}
 
 #home h1 {
     margin: 50px auto 60px auto;
@@ -82,11 +102,16 @@
     margin: 40px auto 20px auto;
 }
 
+#communities
+{
+    margin-bottom: 50px;
+}
+
 #communities .list-communities .row {
     margin-top: 30px;
 }
 
-#communities .list-communities .img-responsive{
+#communities .list-communities .img-responsive {
     margin: 0 auto;
 }
 
