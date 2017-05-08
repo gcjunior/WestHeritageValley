@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="text-center">Explore The Communities of West Heritage Valley</h1>
+                <h1 class="text-center color-standard">Explore The Communities of West Heritage Valley</h1>
             </div>
         </div>
         <div class="row">
