@@ -1,11 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="West Heritage Valley | Home" 
+    MetaKeywords="West heritage valley,Qualico Edmonton,Chappelle gardens,Creekwood,crimson,creekwood Chappelle,Paisley,Heritage valley,Edmonton new homes,southwest Edmonton homes,south Edmonton homes"
+    MetaDescription="Welcome to a world of new home possibilities in Edmonton. West Heritage Valley is located in southwest Edmonton and offers a unique lifestyle." 
+    Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container-fluid" id="home">
         <div class="row">
-            <img src="Images/Home/Communities-Of-Heritage-Valley.jpg" class="img-responsive" />
+            <img src="Images/Home/Communities-Of-Heritage-Valley.jpg" class="img-responsive hidden-xs" />
+            <img src="Images/Home/Communities-Of-Heritage-Valley-Mobile.jpg" class="img-responsive hidden-sm hidden-md hidden-lg" />
             <div class="overlay">
                 <h1 class="color-standard">Welcome to a<br />
                     world of new home<br />

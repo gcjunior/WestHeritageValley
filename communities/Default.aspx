@@ -1,4 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="communities_Default" %>
+﻿<%@ Page Title="West Heritage Valley | Communities" 
+    MetaDescription="West Heritage Valley offers a mix of home products in five different communities so you can find the perfect lifestyle and fit for your family. "
+    MetaKeywords="Single family homes,Edmonton new homes,new homes in Edmonton,south Edmonton homes,southwest Edmonton homes,Edmonton homes south,Chappelle gardens,collections at creekwood,creekwood Chappelle,crimson in creekwood Chappelle,paisley at heritage valley,communities of west heritage valley"
+    Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="communities_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
