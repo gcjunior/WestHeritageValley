@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="row">
-            <img src="../Images/Map/Map.jpg" class="img-responsive" />
+            <img src="../Images/Map/Map.jpg" class="img-responsive" alt="Map" />
         </div>
     </div>
 </asp:Content>
