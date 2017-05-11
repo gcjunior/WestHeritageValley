@@ -1,6 +1,6 @@
-﻿<%@ Page Title="West Heritage Valley | Home" 
+﻿<%@ Page Title="West Heritage Valley | Home"
     MetaKeywords="West heritage valley,Qualico Edmonton,Chappelle gardens,Creekwood,crimson,creekwood Chappelle,Paisley,Heritage valley,Edmonton new homes,southwest Edmonton homes,south Edmonton homes"
-    MetaDescription="Welcome to a world of new home possibilities in Edmonton. West Heritage Valley is located in southwest Edmonton and offers a unique lifestyle." 
+    MetaDescription="Welcome to a world of new home possibilities in Edmonton. West Heritage Valley is located in southwest Edmonton and offers a unique lifestyle."
     Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -22,36 +22,36 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+            <a class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail" href="<%= ResolveUrl("~/communities/#Chappelle") %>">
                 <img src="Images/Home/Chappelle-Gardens.jpg" class="img-responsive" alt="Chappele Gardens" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Chappelle") %>" class="learn-more-icon color-chappele">Learn More</a>
+                    <span class="learn-more-icon color-chappele">Learn More</span>
                 </p>
-            </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+            </a>
+            <a class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail" href="<%= ResolveUrl("~/communities/#Collections") %>">
                 <img src="Images/Home/Collections.jpg" class="img-responsive" alt="Collections" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Collections") %>" class="learn-more-icon color-collections">Learn More</a>
+                    <span class="learn-more-icon color-collections">Learn More</span>
                 </p>
-            </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+            </a>
+            <a class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail" href="<%= ResolveUrl("~/communities/#Creekwood") %>">
                 <img src="Images/Home/Creekwood.jpg" class="img-responsive" alt="Creekwood" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Creekwood") %>" class="learn-more-icon color-creekwood">Learn More</a>
+                    <span class="learn-more-icon color-creekwood">Learn More</span>
                 </p>
-            </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-12 thumbnail">
+            </a>
+            <a class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-12 thumbnail" href="<%= ResolveUrl("~/communities/#Crimson") %>">
                 <img src="Images/Home/Crimson.jpg" class="img-responsive" alt="Crimson" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Crimson") %>" class="learn-more-icon color-crimson">Learn More</a>
+                    <span class="learn-more-icon color-crimson">Learn More</span>
                 </p>
-            </div>
-            <div class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail">
+            </a>
+            <a class="col-md-15 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 thumbnail" href="<%= ResolveUrl("~/communities/#Paisley") %>">
                 <img src="Images/Home/Paisley.jpg" class="img-responsive" alt="Paisley" />
                 <p>
-                    <a href="<%= ResolveUrl("~/communities/#Paisley") %>" class="learn-more-icon color-paisley">Learn More</a>
+                    <span class="learn-more-icon color-paisley">Learn More</span>
                 </p>
-            </div>
+            </a>
         </div>
     </div>
 </asp:Content>

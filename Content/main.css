@@ -81,6 +81,12 @@
             font-weight: 700;
         }
 
+        #home .thumbnail:hover p span
+        {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
 #home .overlay {
     position: absolute;
     top: 8%;
