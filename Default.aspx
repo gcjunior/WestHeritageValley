@@ -4,6 +4,11 @@
     Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <style type="text/css">
+        .navbar-default .navbar-nav > li:nth-of-type(1) > a, .navbar-default .navbar-nav > li:nth-of-type(1) > a:hover{
+            color: #000;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container-fluid" id="home">

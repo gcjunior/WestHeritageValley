@@ -4,6 +4,11 @@
     Language="C#" MasterPageFile="~/Templates/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="map_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <style type="text/css">
+        .navbar-default .navbar-nav > li:nth-of-type(2) > a, .navbar-default .navbar-nav > li:nth-of-type(2) > a:hover{
+            color: #000;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container-fluid" id="map">
