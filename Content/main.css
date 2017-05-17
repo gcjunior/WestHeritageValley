@@ -1,5 +1,23 @@
 ﻿body {
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-abs {
+    position: absolute;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+rect:hover.rect, polygon:hover.rect {
+    fill: #ccc !important;
+    opacity: 0.2;
+    cursor: pointer;
 }
 
 .color-standard {
@@ -81,11 +99,10 @@
             font-weight: 700;
         }
 
-        #home .thumbnail:hover p span
-        {
-            cursor: pointer;
-            text-decoration: underline;
-        }
+    #home .thumbnail:hover p span {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 
 #home .overlay {
     position: absolute;
@@ -108,33 +125,32 @@
     margin: 40px auto 20px auto;
 }
 
-#communities
-{
+#communities {
     margin-bottom: 50px;
 }
 
-#communities .list-communities .row {
-    margin-top: 30px;
-}
+    #communities .list-communities .row {
+        margin-top: 30px;
+    }
 
-#communities .list-communities .img-responsive {
-    margin: 0 auto;
-}
+    #communities .list-communities .img-responsive {
+        margin: 0 auto;
+    }
 
 
-#communities .list-communities .content .title {
-    font-weight: 500;
-    font-size: 20px;
-    color: #24262b;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
+    #communities .list-communities .content .title {
+        font-weight: 500;
+        font-size: 20px;
+        color: #24262b;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
 
-#communities .list-communities .content .details {
-    font-size: 14px;
-    font-weight: 300;
-    color: #24262b;
-}
+    #communities .list-communities .content .details {
+        font-size: 14px;
+        font-weight: 300;
+        color: #24262b;
+    }
 
 
 @media(min-width: 768px) {
