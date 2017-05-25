@@ -27,10 +27,10 @@
                     <div class="content content-right">
                         <img src="../Images/Communities/Chappelle-Logo.jpg" alt="Chappelle logo" />
                         <p class="title">Chappelle Gardens</p>
-                        <p class="details">Life doesn’t just happen, it’s cultivated in communities like Chappelle Gardens, where shared spray parks lead to a shared dinner table. Come grow with us.</p>
-                        <p class="details">Natural wonders are steps away, including an urban village park with community gardens, tree-lined paths, and a Residents Association with an NHL-sized hockey rink, spray park, playground, picnic area, and brand new facility building. In Chappelle Gardens, you can enjoy choice and affordability with homes starting from the low $200’s up to the $450’s and higher, providing homeowners with a variety of options to make Chappelle Gardens home. </p>
+                        <p class="details">Life doesn't just happen, it's cultivated in communities like Chappelle Gardens, where shared spray parks lead to a shared dinner table. Come grow with us.</p>
+                        <p class="details">Natural wonders are steps away, including an urban village park with community gardens, tree-lined paths, and a Residents Association with an NHL-sized hockey rink, spray park, playground, picnic area, and brand new facility building. In Chappelle Gardens, you can enjoy choice and affordability with homes starting from the low $200’s up to the $450’s and higher, providing homeowners with a variety of options to make Chappelle Gardens home.</p>
                         <p class="learn-more">
-                            <a class="learn-more-icon color-chappele" href="http://www.chappellegardens-connect.com/">Learn More</a>
+                            <a class="learn-more-icon color-chappele" href="https://alberta.brookfieldresidential.com/edmonton/chappelle-gardens/">Learn More</a>
                         </p>
                     </div>
                 </div>
