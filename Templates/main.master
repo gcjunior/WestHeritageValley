@@ -2,17 +2,20 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
 <head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>West Heritage Valley | Home</title>
     <meta content="Welcome to a world of new home possibilities in Edmonton. West Heritage Valley is located in southwest Edmonton and offers a unique lifestyle." name="description" />
     <meta content="West heritage valley,Qualico Edmonton,Chappelle gardens,Creekwood,crimson,creekwood Chappelle,Paisley,Heritage valley,Edmonton new homes,southwest Edmonton homes,south Edmonton homes" name="keywords" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
-    <link href="../Content/grid.css" rel="stylesheet" />
-    <link href="../Content/navbar.css" rel="stylesheet" />
-    <link href="../Content/main.css" rel="stylesheet" />
+    <link href="../Content/grid.min.css" rel="stylesheet" />
+    <link href="../Content/navbar.min.css" rel="stylesheet" />
+    <link href="../Content/main.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -54,9 +57,9 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <script src="../Scripts/jquery-1.12.4.min.js"></script>
-    <script src="../Scripts/bootstrap.min.js"></script>
-    <script src="../Scripts/main.js"></script>
+    <script src="../Scripts/jquery-1.12.4.min.js" async></script>
+    <script src="../Scripts/bootstrap.min.js" async></script>
+    <script src="../Scripts/main.min.js?<%= DateTime.Now %>" async></script>
     <asp:ContentPlaceHolder ID="JavaScriptPlaceHolder" runat="server">
     </asp:ContentPlaceHolder>
 </body>

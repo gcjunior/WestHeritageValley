@@ -1,4 +1,3 @@
 # robotstxt.org/
-Sitemap: http://sterlingedmonton.com/sitemap.xml
+Sitemap: http://westheritagevalley.com/sitemap.xml
 User-agent: *
-Disallow: /build-price/
